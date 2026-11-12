@@ -1,0 +1,26 @@
+{
+  "name": "kurotaky-agent-skills",
+  "owner": {
+    "name": "kurotaky"
+  },
+  "metadata": {
+    "description": "kurotaky's Claude Code Agent Skills collection",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "kokoroe",
+      "source": "./plugins/kokoroe",
+      "description": "作者がAIとの作業で受けた指摘と、うまくいった進め方から抜き出した心得を集めたガイドライン群。文章とコードのコメントの書き方、ユーザーに確認する時と確認しない時の線引き、Codex CLIにセカンドオピニオンを求める時の進め方、git worktreeで作業を始める時の確かめ方を定める。",
+      "version": "0.1.0",
+      "author": {
+        "name": "kurotaky"
+      },
+      "repository": "https://github.com/kurotaky/agent-skills",
+      "license": "MIT",
+      "keywords": ["guideline", "writing", "code-comment", "user-decision", "second-opinion", "codex", "git-worktree"],
+      "category": "guideline"
+    }
+  ]
+}
